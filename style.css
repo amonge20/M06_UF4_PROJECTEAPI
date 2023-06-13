@@ -1,0 +1,45 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.weather-info {
+  margin-top: 30px;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+#search-btn {
+  margin-left: 10px;
+}
+
+.chart-container {
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.chart-scroll-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.chart-scroll-btn.next {
+  right: 0;
+}
